@@ -33,7 +33,6 @@ public class Main {
 
         while (true) {
             PriorityQueue<Fish> pq = new PriorityQueue<>();
-
             distance = new int[n][n];
             calDistance(sharkX, sharkY);
 
@@ -58,7 +57,6 @@ public class Main {
                 }
             }
         }
-
         System.out.println(answer);
     }
 
